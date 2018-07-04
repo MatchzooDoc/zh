@@ -1,0 +1,474 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-04 11:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/matchzoo.engine.rst:2
+msgid "matchzoo.engine package"
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:8
+msgid "matchzoo.engine.base\\_model module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model:1
+msgid "Base Model."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel:1
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask:1
+msgid "Bases: :class:`abc.ABC`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel:1
+msgid "Abstract base class of all matchzoo models."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.backend:1
+msgid "return model backend, a keras model instance."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.backend:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.params:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_losses:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_metrics:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.output_shape:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.list_available_tasks:0
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.hyper_space:0
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.name:0
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.validator:0
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.value:0
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.completed:0
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.hyper_space:0
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.backend:3
+msgid ":py:class:`~keras.engine.training.Model`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.build:1
+msgid "Build model, each sub class need to impelemnt this method."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.build:4
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:20
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable:4
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.completed:5
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:16
+msgid "Example"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.compile:1
+msgid "Compile model for training."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:1
+msgid "Evaluate the model."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:3
+msgid "See :meth:`keras.models.Model.evaluate` for more details."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.save:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:0
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.add:0
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:6
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:6
+msgid "input data"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:8
+msgid "labels"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:10
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:7
+msgid "number of samples per gradient update"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:12
+msgid "verbosity mode, 0 or 1"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:13
+msgid ":py:data:`~typing.Union`\\[:py:class:`float`, :py:class:`~typing.List`\\[:py:class:`float`]]"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:0
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_losses:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_metrics:0
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.list_available_tasks:0
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.completed:0
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.evaluate:14
+msgid "scalar test loss (if the model has a single output and no metrics) or list of scalars (if the model has multiple outputs and/or metrics). The attribute `model.backend.metrics_names` will give you the display labels for the scalar outputs."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:1
+msgid "Fit the model."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:3
+msgid "See :meth:`keras.models.Model.fit` for more details."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:6
+msgid "input data."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:8
+msgid "labels."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:10
+msgid "number of samples per gradient update."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:12
+msgid "number of epochs to train the model."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:14
+msgid "0, 1, or 2. Verbosity mode. 0 = silent, 1 = verbose, 2 = one log line per epoch."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:17
+msgid ":py:class:`~keras.callbacks.History`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.fit:18
+msgid "A `keras.callbacks.History` instance. Its history attribute contains all information collected during training."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:1
+msgid "Model default parameters."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:4
+msgid "The common usage is to instantiate :class:`matchzoo.engine.ModelParams`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:4
+msgid "first, then set the model specific parametrs."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:7
+msgid "Examples"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:24
+msgid "Notice that all parameters must be serialisable for the entire model to be serialisable. Therefore, it's strongly recommended to use python native data types to store parameters."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:28
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.params:3
+msgid ":py:class:`~matchzoo.engine.param_table.ParamTable`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.get_default_params:29
+msgid "model parameters"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.guess_and_fill_missing_params:1
+msgid "Guess and fill missing parameters in :attr:`params`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.guess_and_fill_missing_params:3
+msgid "Note: likely to be moved to a higher level API in the future."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.params:1
+msgid "*return* -- model parameters."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:1
+msgid "Generate output predictions for the input samples."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:3
+msgid "See :meth:`keras.models.Model.predict` for more details."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:8
+msgid ":py:class:`~numpy.ndarray`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.predict:9
+msgid "numpy array(s) of predictions"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.save:1
+msgid "Save the model."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.save:3
+msgid "A saved model is represented as a directory with two files. One is a model parameters file saved by `pickle`, and the other one is a model h5 file saved by `keras`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.BaseModel.save:8
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:4
+msgid "directory path of the saved model"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:1
+msgid "Load a model. The reverse function of :meth:`BaseModel.save`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:5
+msgid ":py:class:`~matchzoo.engine.base_model.BaseModel`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_model.py:docstring of matchzoo.engine.base_model.load_model:6
+msgid "a :class:`BaseModel` instance"
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:16
+msgid "matchzoo.engine.base\\_task module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task:1
+msgid "Base task."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask:1
+msgid "Base Task, shouldn't be used directly."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_losses:1
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_metrics:1
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:12
+msgid ":py:class:`list`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_losses:2
+msgid "a list of available losses."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.list_available_metrics:2
+msgid "a list of available metrics."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.output_shape:1
+msgid "*return* -- output shape of a single sample of the task."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.BaseTask.output_shape:3
+msgid ":py:class:`tuple`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.list_available_tasks:1
+msgid ":py:class:`~typing.List`\\[:py:class:`~typing.Type`\\[:py:class:`~matchzoo.engine.base_task.BaseTask`]]"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/base_task.py:docstring of matchzoo.engine.base_task.list_available_tasks:2
+msgid "a list of available task types."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:24
+msgid "matchzoo.engine.hyper\\_spaces module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces:1
+msgid "Hyper parameter search spaces wrapping `hyperopt`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:1
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:1
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:1
+msgid "Hyperopt proxy class."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:3
+msgid "See `hyperopt`'s documentation for more details: https://github.com/hyperopt/hyperopt/wiki/FMin"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:6
+msgid "Reason of these wrappers:"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.HyperoptProxy:8
+msgid "A hyper space in `hyperopt` requires a `label` to instantiate. This `label` is used later as a reference to original hyper space that is sampled. In `matchzoo`, hyper spaces are used in :class:`matchzoo.engine.Param`. Only if a hyper space's label matches its parent :class:`matchzoo.engine.Param`'s name, `matchzoo` can correctly back-refrenced the parameter got sampled. This can be done by asking the user always use the same name for a parameter and its hyper space, but typos can occur. As a result, these wrappers are created to hide hyper spaces' `label`, and always correctly bind them with its parameter's name."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.choice:1
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.quniform:1
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.uniform:1
+msgid "Bases: :class:`matchzoo.engine.hyper_spaces.HyperoptProxy`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.choice:1
+msgid ":func:`hyperopt.hp.choice` proxy."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.quniform:1
+msgid ":func:`hyperopt.hp.quniform` proxy."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/hyper_spaces.py:docstring of matchzoo.engine.hyper_spaces.uniform:1
+msgid ":func:`hyperopt.hp.uniform` proxy."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:32
+msgid "matchzoo.engine.param module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param:1
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:1
+msgid "Parameter class."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:3
+msgid "Basic usages with a name and  value:"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:11
+msgid "Use with a validator to make sure the parameter always keeps a valid value."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:33
+msgid "Use with a hyper space. Setting up a hyper space for a parameter makes the parameter tunable in a :class:`matchzoo.engine.Tuner`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:49
+msgid "The boolean value of a :class:`Param` instance is only `True` when the value is not `None`. This is because some default falsy values like zero or an empty list are valid parameter values. In other words, the boolean value means to be \"if the parameter value is filled\"."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param:62
+msgid "A `_pre_assignment_hook` is initialized as a data type convertor if the value is set as a number to keep data type consistency of the parameter. This conversion supports python built-in numbers, `numpy` numbers, and any number that inherits :class:`numbers.Number`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.hyper_space:1
+msgid "*return* -- Hyper space of the parameter."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.hyper_space:3
+msgid ":py:class:`~hyperopt.pyll.base.Apply`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.name:1
+msgid "*return* -- Name of the parameter."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.name:3
+msgid ":py:class:`str`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.validator:1
+msgid "*return* -- Validator of the parameter."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.validator:3
+msgid ":py:data:`~typing.Callable`\\[\\[:py:data:`~typing.Any`], :py:class:`bool`]"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.value:1
+msgid "*return* -- Value of the parameter."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param.py:docstring of matchzoo.engine.param.Param.value:3
+msgid ":py:data:`~typing.Any`"
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:40
+msgid "matchzoo.engine.param\\_table module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table:1
+msgid "Parameters table class."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable:1
+msgid "Parameter table class."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.add:2
+msgid "parameter to add."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.completed:1
+msgid ":py:class:`bool`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.completed:2
+msgid "`True` if all params are filled, `False` otherwise."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.hyper_space:1
+msgid "*return* -- Hyper space of the table, a valid `hyperopt` graph."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/param_table.py:docstring of matchzoo.engine.param_table.ParamTable.hyper_space:3
+msgid ":py:class:`dict`"
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:48
+msgid "matchzoo.engine.tune module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune:1
+msgid "Tuner class. Currently a minimum working demo."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:1
+msgid "Tune the `model` `max_evals` times."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:3
+msgid "Construct a hyper parameter searching space by extracting all parameters in `model` that have a defined hyper space. Then, using `hyperopt` API, iteratively sample parameters and test for loss, and pick the best trial out of all. Currently a minimum working demo."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:11
+msgid "Number of evaluations of a single tuning process."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/engine/tune.py:docstring of matchzoo.engine.tune.tune:13
+msgid "A list of trials of the tuning process."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:57
+msgid "Module contents"
+msgstr ""
+
