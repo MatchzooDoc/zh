@@ -12,7 +12,7 @@ Welcome to MatchZoo's documentation!
    :target: https://travis-ci.org/faneshion/MatchZoo/
 
 
-.. image:: ../../artworks/matchzoo-logo.png
+.. image:: ../../MatchZoo/artworks/matchzoo-logo.png
    :alt: logo
    :align: center
 
