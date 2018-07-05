@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../source/index.rst:23
 msgid "API Document:"
-msgstr ""
+msgstr "API文档"
 
 #: ../../source/index.rst:32
 msgid "Indices and tables"
