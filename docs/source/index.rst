@@ -22,7 +22,7 @@ MatchZoo is a toolkit for text matching. It was developed with a focus on facili
 
 .. toctree::
    :maxdepth: 2
-   :caption: API 文档:
+   :caption: API Document:
 
    matchzoo
 

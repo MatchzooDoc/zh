@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MatchZoo \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-04 11:22+0000\n"
+"POT-Creation-Date: 2018-07-12 04:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,7 @@ msgstr ""
 #: matchzoo.engine.base_model.BaseModel.params
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.load_model
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
 #: matchzoo.engine.base_task.BaseTask.list_available_losses
 #: matchzoo.engine.base_task.BaseTask.list_available_metrics
 #: matchzoo.engine.base_task.BaseTask.output_shape
@@ -98,6 +99,7 @@ msgstr ""
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.BaseModel.save
 #: matchzoo.engine.base_model.load_model
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
 #: matchzoo.engine.param_table.ParamTable.add matchzoo.engine.tune.tune of
 msgid "Parameters"
 msgstr ""
@@ -131,6 +133,7 @@ msgstr ""
 #: matchzoo.engine.base_model.BaseModel.get_default_params
 #: matchzoo.engine.base_model.BaseModel.predict
 #: matchzoo.engine.base_model.load_model
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle
 #: matchzoo.engine.base_task.BaseTask.list_available_losses
 #: matchzoo.engine.base_task.BaseTask.list_available_metrics
 #: matchzoo.engine.base_task.list_available_tasks
@@ -276,6 +279,66 @@ msgid "a :class:`BaseModel` instance"
 msgstr ""
 
 #: ../../source/matchzoo.engine.rst:16
+msgid "matchzoo.engine.base\\_preprocessor module"
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor:1 of
+msgid "Base Preprocessor, consist of multiple :class:`ProcessorUnit`."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor:3 of
+msgid ""
+"Each sub-class should employ a sequence of :class:`ProcessorUnit` and "
+":class:`StatefulProcessorUnit` to handle input data."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor:1
+#: matchzoo.engine.hyper_spaces.HyperoptProxy:1 matchzoo.engine.param.Param:1
+#: matchzoo.engine.param_table.ParamTable:1 of
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor:1 of
+msgid "Abstract base class for model-wise processors."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:1 of
+msgid "Apply fit-transform on input data."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform:3 of
+msgid "This method is an abstract method, need to be implemented in sub-class."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:1 of
+msgid "Inference whether a process_unit is `Stateful`."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:4 of
+msgid "Given a process unit instance."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:6 of
+msgid "process input text."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle of
+msgid "return ctx"
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:8 of
+msgid "Context as dict, i.e. fitted parameters."
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:9 of
+msgid ":py:data:`~typing.Union`\\[:py:class:`dict`, :py:data:`~typing.Any`]"
+msgstr ""
+
+#: matchzoo.engine.base_preprocessor.BasePreprocessor.handle:10 of
+msgid "Transformed user input given transformer."
+msgstr ""
+
+#: ../../source/matchzoo.engine.rst:24
 msgid "matchzoo.engine.base\\_task module"
 msgstr ""
 
@@ -317,17 +380,12 @@ msgstr ""
 msgid "a list of available task types."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:24
+#: ../../source/matchzoo.engine.rst:32
 msgid "matchzoo.engine.hyper\\_spaces module"
 msgstr ""
 
 #: matchzoo.engine.hyper_spaces:1 of
 msgid "Hyper parameter search spaces wrapping `hyperopt`."
-msgstr ""
-
-#: matchzoo.engine.hyper_spaces.HyperoptProxy:1 matchzoo.engine.param.Param:1
-#: matchzoo.engine.param_table.ParamTable:1 of
-msgid "Bases: :class:`object`"
 msgstr ""
 
 #: matchzoo.engine.hyper_spaces.HyperoptProxy:1 of
@@ -376,7 +434,7 @@ msgstr ""
 msgid ":func:`hyperopt.hp.uniform` proxy."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:32
+#: ../../source/matchzoo.engine.rst:40
 msgid "matchzoo.engine.param module"
 msgstr ""
 
@@ -450,7 +508,7 @@ msgstr ""
 msgid ":py:data:`~typing.Any`"
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:40
+#: ../../source/matchzoo.engine.rst:48
 msgid "matchzoo.engine.param\\_table module"
 msgstr ""
 
@@ -482,7 +540,7 @@ msgstr ""
 msgid ":py:class:`dict`"
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:48
+#: ../../source/matchzoo.engine.rst:56
 msgid "matchzoo.engine.tune module"
 msgstr ""
 
@@ -510,7 +568,7 @@ msgstr ""
 msgid "A list of trials of the tuning process."
 msgstr ""
 
-#: ../../source/matchzoo.engine.rst:57
+#: ../../source/matchzoo.engine.rst:65
 msgid "Module contents"
 msgstr ""
 

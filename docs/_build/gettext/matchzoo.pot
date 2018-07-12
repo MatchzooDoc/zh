@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 04:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/matchzoo.rst:2
+msgid "matchzoo package"
+msgstr ""
+
+#: ../../source/matchzoo.rst:5
+msgid "Subpackages"
+msgstr ""
+
+#: ../../source/matchzoo.rst:15
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.rst:18
+msgid "matchzoo.datapack module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack:1
+msgid "Matchzoo DataPack, pair-wise tuple (feature) and context as input."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack:1
+msgid "Matchzoo DataPack data structure, store dataframe and context."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack:4
+msgid "Example"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.append:1
+msgid "Append a new `DataPack` object to current `DataPack` object."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.append:3
+msgid "It should be noted that the context of the previous `DataPack` will be updated by the new one."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.append:0
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:0
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.save:0
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.append:7
+msgid "the `DataPack` object to be appended."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.context:1
+msgid "Get context of `DataPack`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.dataframe:1
+msgid "Get data frame."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:1
+msgid "Sample records from `DataPack` object, for generator."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:3
+msgid "number of records to be sampled, use `batch_size`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:4
+msgid "sample with replacement, default value is `True`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:0
+msgid "return data_pack"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.sample:6
+msgid "return `DataPack` object including sampled data and context (shallow copy of the context`)."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.save:1
+msgid "Save the `DataPack` object."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.save:3
+msgid "A saved `DataPack` is represented as a directory with a `DataPack` object (transformed user input as features and context), it will be saved by `pickle`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.DataPack.save:8
+msgid "directory path of the saved `DataPack`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:1
+msgid "Load a `DataPack`. The reverse function of :meth:`DataPack.save`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:4
+msgid "directory path of the saved model"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:5
+msgid ":py:class:`~matchzoo.datapack.DataPack`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/datapack.py:docstring of matchzoo.datapack.load_datapack:6
+msgid "a :class:`DataPack` instance"
+msgstr ""
+
+#: ../../source/matchzoo.rst:27
+msgid "Module contents"
+msgstr ""
+

@@ -1,0 +1,588 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>matchzoo.preprocessor package &mdash; MatchZoo 2.0 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> MatchZoo
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">API Document:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="matchzoo.html">matchzoo package</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">MatchZoo</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>matchzoo.preprocessor package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/matchzoo.preprocessor.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="matchzoo-preprocessor-package">
+<h1>matchzoo.preprocessor package<a class="headerlink" href="#matchzoo-preprocessor-package" title="永久链接至标题">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="永久链接至标题">¶</a></h2>
+</div>
+<div class="section" id="module-matchzoo.preprocessor.process_units">
+<span id="matchzoo-preprocessor-process-units-module"></span><h2>matchzoo.preprocessor.process_units module<a class="headerlink" href="#module-matchzoo.preprocessor.process_units" title="永久链接至标题">¶</a></h2>
+<p>Matchzoo toolkit for text pre-processing.</p>
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.DigitRemovalUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">DigitRemovalUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.DigitRemovalUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit to remove digits.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.DigitRemovalUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.DigitRemovalUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Remove digits from list of tokens.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokens to be filtered.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return tokens:</th><td class="field-body">tokens of tokens without digits.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.LemmatizationUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">LemmatizationUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.LemmatizationUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit for token lemmatization.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.LemmatizationUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.LemmatizationUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Lemmatization a sequence of tokens.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokens to be lemmatized.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return tokens:</th><td class="field-body">list of lemmatizd tokens.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.LowercaseUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">LowercaseUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.LowercaseUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit for text lower case.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.LowercaseUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.LowercaseUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Convert list of tokens to lower case.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokens.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return tokens:</th><td class="field-body">lower-cased list of tokens.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.NgramLetterUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">NgramLetterUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.NgramLetterUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.StatefulProcessorUnit" title="matchzoo.preprocessor.process_units.StatefulProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.StatefulProcessorUnit</span></code></a></p>
+<p>Process unit for n-letter generation.</p>
+<p>Triletter is used in <code class="xref py py-class docutils literal notranslate"><span class="pre">DSSMModel</span></code>.
+This processor is expected to execute after <cite>Vocab</cite>
+has been created.</p>
+<p>Returned <cite>input_dim</cite> is the dimensionality of <code class="xref py py-class docutils literal notranslate"><span class="pre">DSSMModel</span></code>.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.NgramLetterUnit.fit">
+<code class="descname">fit</code><span class="sig-paren">(</span><em>tokens</em>, <em>ngram=3</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.NgramLetterUnit.fit" title="永久链接至目标">¶</a></dt>
+<dd><p>Fiitting parameters (shape of word hashing layer) for :DSSM:.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first last simple">
+<li><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokens to be fitted.</li>
+<li><strong>ngram</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- By default use 3-gram (tri-letter).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.NgramLetterUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em>, <em>ngram=3</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.NgramLetterUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Transform token into tri-letter.</p>
+<p>For example, <cite>word</cite> should be represented as <cite>#wo</cite>,
+<cite>wor</cite>, <cite>ord</cite> and <cite>rd#</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokens to be transformed.</li>
+<li><strong>ngram</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) -- By default use 3-gram (tri-letter).</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">set of tri-letters, dependent on <cite>ngram</cite>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.ProcessorUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">ProcessorUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Process unit do not persive state (i.e. do not need fit).</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.ProcessorUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.ProcessorUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Abstract base method, need to be implemented in subclass.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.PuncRemovalUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">PuncRemovalUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.PuncRemovalUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit for remove punctuations.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.PuncRemovalUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.PuncRemovalUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Remove punctuations from list of tokens.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of toekns.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return rv:</th><td class="field-body">tokens  without punctuation.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.StatefulProcessorUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">StatefulProcessorUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.StatefulProcessorUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit do persive state (i.e. need fit).</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.StatefulProcessorUnit.fit">
+<code class="descname">fit</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StatefulProcessorUnit.fit" title="永久链接至目标">¶</a></dt>
+<dd><p>Abstract base method, need to be implemented in subclass.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="matchzoo.preprocessor.process_units.StatefulProcessorUnit.state">
+<code class="descname">state</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.StatefulProcessorUnit.state" title="永久链接至目标">¶</a></dt>
+<dd><p>Get current state.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.StemmingUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">StemmingUnit</code><span class="sig-paren">(</span><em>stemmer='porter'</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StemmingUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit for token stemming.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.StemmingUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StemmingUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Reducing inflected words to their word stem, base or root form.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of string to be stemmed.</li>
+<li><strong>stemmer</strong> -- stemmer to use, <cite>porter</cite> or <cite>lancaster</cite>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">引发:</th><td class="field-body"><p class="first"><strong>ValueError</strong> -- stemmer type should be porter or lancaster.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return tokens:</th><td class="field-body"><p class="first">stemmed token.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.StopRemovalUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">StopRemovalUnit</code><span class="sig-paren">(</span><em>lang='en'</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StopRemovalUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit to remove stop words.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords">
+<code class="descname">get_stopwords</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords" title="永久链接至目标">¶</a></dt>
+<dd><p>Get stopwords based on language.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Params lang:</th><td class="field-body">language code.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">Return stop_list:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body">list of stop words.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.StopRemovalUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.StopRemovalUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Remove stopwords from list of tokenized tokens.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>tokens</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code>) -- list of tokenized tokens.</li>
+<li><strong>lang</strong> -- language code for stopwords.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return tokens:</th><td class="field-body"><p class="first">list of tokenized tokens without stopwords.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first last"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.TokenizeUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">TokenizeUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.TokenizeUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.ProcessorUnit</span></code></a></p>
+<p>Process unit for text tokenization.</p>
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.TokenizeUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>input</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.TokenizeUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Process input data from raw terms to list of tokens.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><strong>input</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) -- raw textual input.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return tokens:</th><td class="field-body">tokenized tokens as a list.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.VocabularyUnit">
+<em class="property">class </em><code class="descclassname">matchzoo.preprocessor.process_units.</code><code class="descname">VocabularyUnit</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.VocabularyUnit" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#matchzoo.preprocessor.process_units.StatefulProcessorUnit" title="matchzoo.preprocessor.process_units.StatefulProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">matchzoo.preprocessor.process_units.StatefulProcessorUnit</span></code></a></p>
+<p>Vocabulary class.</p>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">vocab</span> <span class="o">=</span> <span class="n">VocabularyUnit</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vocab</span><span class="o">.</span><span class="n">fit</span><span class="p">([</span><span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;B&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;D&#39;</span><span class="p">,</span> <span class="s1">&#39;E&#39;</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">term_index</span> <span class="o">=</span> <span class="n">vocab</span><span class="o">.</span><span class="n">state</span><span class="p">[</span><span class="s1">&#39;term_index&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">term_index</span>  
+<span class="go">{&#39;E&#39;: 1, &#39;C&#39;: 2, &#39;D&#39;: 3, &#39;A&#39;: 4, &#39;B&#39;: 5}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_term</span> <span class="o">=</span> <span class="n">vocab</span><span class="o">.</span><span class="n">state</span><span class="p">[</span><span class="s1">&#39;index_term&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_term</span>  
+<span class="go">{1: &#39;C&#39;, 2: &#39;A&#39;, 3: &#39;E&#39;, 4: &#39;B&#39;, 5: &#39;D&#39;}</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">term_index</span><span class="p">[</span><span class="s1">&#39;out-of-vocabulary-term&#39;</span><span class="p">]</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_term</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">&#39;&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">index_term</span><span class="p">[</span><span class="mi">42</span><span class="p">]</span>
+<span class="gt">Traceback (most recent call last):</span>
+    <span class="o">...</span>
+<span class="gr">KeyError</span>: <span class="n">42</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">a_index</span> <span class="o">=</span> <span class="n">term_index</span><span class="p">[</span><span class="s1">&#39;A&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">c_index</span> <span class="o">=</span> <span class="n">term_index</span><span class="p">[</span><span class="s1">&#39;C&#39;</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vocab</span><span class="o">.</span><span class="n">transform</span><span class="p">([</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;C&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="n">c_index</span><span class="p">,</span> <span class="n">a_index</span><span class="p">,</span> <span class="n">c_index</span><span class="p">]</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">vocab</span><span class="o">.</span><span class="n">transform</span><span class="p">([</span><span class="s1">&#39;C&#39;</span><span class="p">,</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span> <span class="s1">&#39;OOV&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="n">c_index</span><span class="p">,</span> <span class="n">a_index</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">indices</span> <span class="o">=</span> <span class="n">vocab</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="s1">&#39;ABCDDZZZ&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">vocab</span><span class="o">.</span><span class="n">state</span><span class="p">[</span><span class="s1">&#39;index_term&#39;</span><span class="p">][</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">)</span>
+<span class="go">&#39;ABCDD&#39;</span>
+</pre></div>
+</div>
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm">
+<em class="property">class </em><code class="descname">IndexTerm</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+<p>Map index to term.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex">
+<em class="property">class </em><code class="descname">TermIndex</code><a class="headerlink" href="#matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code></p>
+<p>Map term to index.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.VocabularyUnit.fit">
+<code class="descname">fit</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.VocabularyUnit.fit" title="永久链接至目标">¶</a></dt>
+<dd><p>Build a <a class="reference internal" href="#matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex" title="matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex"><code class="xref py py-class docutils literal notranslate"><span class="pre">TermIndex</span></code></a> and a <a class="reference internal" href="#matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm" title="matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm"><code class="xref py py-class docutils literal notranslate"><span class="pre">IndexTerm</span></code></a>.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.preprocessor.process_units.VocabularyUnit.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>tokens</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.preprocessor.process_units.VocabularyUnit.transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Transform a list of tokens to corresponding indices.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><code class="xref py py-class docutils literal notranslate"><span class="pre">list</span></code></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.preprocessor">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-matchzoo.preprocessor" title="永久链接至标题">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, MatchZoo.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.0',
+            LANGUAGE:'zh',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

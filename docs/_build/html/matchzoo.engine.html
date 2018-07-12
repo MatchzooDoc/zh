@@ -85,6 +85,7 @@
 <li class="toctree-l3 current"><a class="current reference internal" href="#">matchzoo.engine package</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-matchzoo.engine.base_model">matchzoo.engine.base_model module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-matchzoo.engine.base_preprocessor">matchzoo.engine.base_preprocessor module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-matchzoo.engine.base_task">matchzoo.engine.base_task module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-matchzoo.engine.hyper_spaces">matchzoo.engine.hyper_spaces module</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#module-matchzoo.engine.param">matchzoo.engine.param module</a></li>
@@ -94,12 +95,12 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="matchzoo.models.html">matchzoo.models package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="matchzoo.preprocessor.html">matchzoo.preprocessor package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="matchzoo.tasks.html">matchzoo.tasks package</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="matchzoo.html#submodules">Submodules</a></li>
 <li class="toctree-l2"><a class="reference internal" href="matchzoo.html#module-matchzoo.datapack">matchzoo.datapack module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="matchzoo.html#module-matchzoo.preprocessors">matchzoo.preprocessors module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="matchzoo.html#module-matchzoo">Module contents</a></li>
 </ul>
 </li>
@@ -412,6 +413,54 @@ h5 file saved by <cite>keras</cite>.</p>
 </tr>
 </tbody>
 </table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-matchzoo.engine.base_preprocessor">
+<span id="matchzoo-engine-base-preprocessor-module"></span><h2>matchzoo.engine.base_preprocessor module<a class="headerlink" href="#module-matchzoo.engine.base_preprocessor" title="永久链接至标题">¶</a></h2>
+<p>Base Preprocessor, consist of multiple <code class="xref py py-class docutils literal notranslate"><span class="pre">ProcessorUnit</span></code>.</p>
+<p>Each sub-class should employ a sequence of <code class="xref py py-class docutils literal notranslate"><span class="pre">ProcessorUnit</span></code> and
+<code class="xref py py-class docutils literal notranslate"><span class="pre">StatefulProcessorUnit</span></code> to handle input data.</p>
+<dl class="class">
+<dt id="matchzoo.engine.base_preprocessor.BasePreprocessor">
+<em class="property">class </em><code class="descclassname">matchzoo.engine.base_preprocessor.</code><code class="descname">BasePreprocessor</code><a class="headerlink" href="#matchzoo.engine.base_preprocessor.BasePreprocessor" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Abstract base class for model-wise processors.</p>
+<dl class="method">
+<dt id="matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform">
+<code class="descname">fit_transform</code><span class="sig-paren">(</span><em>text_left</em>, <em>text_right</em>, <em>labels</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.engine.base_preprocessor.BasePreprocessor.fit_transform" title="永久链接至目标">¶</a></dt>
+<dd><p>Apply fit-transform on input data.</p>
+<p>This method is an abstract method, need to be implemented
+in sub-class.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="matchzoo.engine.base_preprocessor.BasePreprocessor.handle">
+<code class="descname">handle</code><span class="sig-paren">(</span><em>process_unit</em>, <em>input</em><span class="sig-paren">)</span><a class="headerlink" href="#matchzoo.engine.base_preprocessor.BasePreprocessor.handle" title="永久链接至目标">¶</a></dt>
+<dd><p>Inference whether a process_unit is <cite>Stateful</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">参数:</th><td class="field-body"><ul class="first simple">
+<li><strong>process_unit</strong> (<a class="reference internal" href="matchzoo.preprocessor.html#matchzoo.preprocessor.process_units.ProcessorUnit" title="matchzoo.preprocessor.process_units.ProcessorUnit"><code class="xref py py-class docutils literal notranslate"><span class="pre">ProcessorUnit</span></code></a>) -- Given a process unit instance.</li>
+<li><strong>input</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>) -- process input text.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return ctx:</th><td class="field-body"><p class="first">Context as dict, i.e. fitted parameters.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">返回类型:</th><td class="field-body"><p class="first"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">dict</span></code>, <code class="xref py py-data docutils literal notranslate"><span class="pre">Any</span></code>]</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">返回:</th><td class="field-body"><p class="first last">Transformed user input given transformer.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
 </dd></dl>
 
 </div>

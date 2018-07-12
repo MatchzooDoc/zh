@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, MatchZoo
+# This file is distributed under the same license as the MatchZoo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MatchZoo \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-12 04:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/matchzoo.preprocessor.rst:2
+msgid "matchzoo.preprocessor package"
+msgstr ""
+
+#: ../../source/matchzoo.preprocessor.rst:5
+msgid "Submodules"
+msgstr ""
+
+#: ../../source/matchzoo.preprocessor.rst:8
+msgid "matchzoo.preprocessor.process\\_units module"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units:1
+msgid "Matchzoo toolkit for text pre-processing."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StatefulProcessorUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit:1
+msgid "Bases: :class:`matchzoo.preprocessor.process_units.ProcessorUnit`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit:1
+msgid "Process unit to remove digits."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:1
+msgid "Remove digits from list of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.fit:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:0
+msgid "Parameters"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:4
+msgid "list of tokens to be filtered."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:0
+msgid "return tokens"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:6
+msgid "tokens of tokens without digits."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:0
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.transform:0
+msgid "Return type"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.DigitRemovalUnit.transform:9
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:9
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:9
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:11
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:9
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:12
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:8
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:10
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:9
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.transform:4
+msgid ":py:class:`list`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit:1
+msgid "Process unit for token lemmatization."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:1
+msgid "Lemmatization a sequence of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:4
+msgid "list of tokens to be lemmatized."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LemmatizationUnit.transform:6
+msgid "list of lemmatizd tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit:1
+msgid "Process unit for text lower case."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:1
+msgid "Convert list of tokens to lower case."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:4
+msgid "list of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.LowercaseUnit.transform:6
+msgid "lower-cased list of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit:1
+msgid "Bases: :class:`matchzoo.preprocessor.process_units.StatefulProcessorUnit`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit:1
+msgid "Process unit for n-letter generation."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit:3
+msgid "Triletter is used in :class:`DSSMModel`. This processor is expected to execute after `Vocab` has been created."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit:7
+msgid "Returned `input_dim` is the dimensionality of :class:`DSSMModel`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.fit:1
+msgid "Fiitting parameters (shape of word hashing layer) for :DSSM:."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.fit:4
+msgid "list of tokens to be fitted."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.fit:6
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:9
+msgid "By default use 3-gram (tri-letter)."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:1
+msgid "Transform token into tri-letter."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:3
+msgid "For example, `word` should be represented as `#wo`, `wor`, `ord` and `rd#`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:7
+msgid "list of tokens to be transformed."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:0
+msgid "Returns"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.NgramLetterUnit.transform:12
+msgid "set of tri-letters, dependent on `ngram`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.ProcessorUnit:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.ProcessorUnit:1
+msgid "Process unit do not persive state (i.e. do not need fit)."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.ProcessorUnit.transform:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StatefulProcessorUnit.fit:1
+msgid "Abstract base method, need to be implemented in subclass."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit:1
+msgid "Process unit for remove punctuations."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:1
+msgid "Remove punctuations from list of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:4
+msgid "list of toekns."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:0
+msgid "return rv"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.PuncRemovalUnit.transform:6
+msgid "tokens  without punctuation."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StatefulProcessorUnit:1
+msgid "Process unit do persive state (i.e. need fit)."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StatefulProcessorUnit.state:1
+msgid "Get current state."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit:1
+msgid "Process unit for token stemming."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:1
+msgid "Reducing inflected words to their word stem, base or root form."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:4
+msgid "list of string to be stemmed."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:5
+msgid "stemmer to use, `porter` or `lancaster`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:0
+msgid "Raises"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:7
+msgid "stemmer type should be porter or lancaster."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StemmingUnit.transform:9
+msgid "stemmed token."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit:1
+msgid "Process unit to remove stop words."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:1
+msgid "Get stopwords based on language."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:0
+msgid "params lang"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:3
+msgid "language code."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:0
+msgid "return stop_list"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.get_stopwords:5
+msgid "list of stop words."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:1
+msgid "Remove stopwords from list of tokenized tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:4
+msgid "list of tokenized tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:5
+msgid "language code for stopwords."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.StopRemovalUnit.transform:7
+msgid "list of tokenized tokens without stopwords."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit:1
+msgid "Process unit for text tokenization."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:1
+msgid "Process input data from raw terms to list of tokens."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:4
+msgid "raw textual input."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.TokenizeUnit.transform:6
+msgid "tokenized tokens as a list."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit:1
+msgid "Vocabulary class."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit:4
+msgid "Examples"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm:1
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex:1
+msgid "Bases: :class:`dict`"
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.IndexTerm:1
+msgid "Map index to term."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.TermIndex:1
+msgid "Map term to index."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.fit:1
+msgid "Build a :class:`TermIndex` and a :class:`IndexTerm`."
+msgstr ""
+
+#: ../../../MatchZoo/matchzoo/preprocessor/process_units.py:docstring of matchzoo.preprocessor.process_units.VocabularyUnit.transform:1
+msgid "Transform a list of tokens to corresponding indices."
+msgstr ""
+
+#: ../../source/matchzoo.preprocessor.rst:17
+msgid "Module contents"
+msgstr ""
+
