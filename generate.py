@@ -7,6 +7,7 @@ Matchzoo_path=os.path.join(root_dir,'MatchZoo')
 matchzoo_path=os.path.join(Matchzoo_path,'matchzoo')
 doc_path=os.path.join(root_dir,'docs')
 if option=='fbuild':#first build
+    os.system('git init')
     os.system('git config http.postBuffer 524288000')
     os.system('git submodule add https://github.com/faneshion/MatchZoo')
     os.chdir(Matchzoo_path)
