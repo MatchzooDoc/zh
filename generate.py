@@ -28,7 +28,7 @@ elif option=='rebuild':#main project update
     os.chdir(root_dir)
     os.system('git submodule update --remote')
     os.chdir(doc_path)
-    os.system('sphinx-apidoc -o ./source ' + matchzoo_path)
+    os.system('sphinx-apidoc -f -o ./source ' + matchzoo_path)
     os.system('make gettext')
     os.system('sphinx-intl update -p _build/gettext -l ' + language)
     os.system('sphinx-intl build')
