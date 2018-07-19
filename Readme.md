@@ -6,18 +6,22 @@ pip install -r requirements.txt
 ```
 create a new dir named as the language such as zh,cp all the things in Template to zh.  
 #### Build Documentation
-`python generate.py language option`
+`python generate.py language action option`
 if you build at the first time, run
 ```python
-python generate.py zh fbuild
-```
+python generate.py -l zh -a fbuild
+```  
+if your network is not good enough to clone the submodule,run  
+``python
+python generate.py -l zh -a fbuild -r
+``  
 if the main project update, run
 ```python
-python generate.py zh rebuild
+python generate.py -l zh -a rebuild
 ```
 if you modify the po files, run
 ```python
-python generate.py zh update
+python generate.py -l zh -a update
 ```
 
 ##Notice
